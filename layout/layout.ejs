@@ -4,6 +4,9 @@
     <%- _partial('common/head') %>
 </head>
 <body class="is-<%= column_count() %>-column">
+    <div style='margin:0 auto;display:none;'>
+        <img src='/images/logo.png' />
+    </div>
     <%- _partial('common/navbar') %>
     <% function main_column_class() {
         switch (column_count()) {
